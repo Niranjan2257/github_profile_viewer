@@ -1,5 +1,5 @@
 body{
-background-color: rgb(195, 186, 186);
+background-color: rgb(26, 11, 11);
 }
 .page{
     margin: 0px;
@@ -8,13 +8,10 @@ background-color: rgb(195, 186, 186);
 
 }
 .bgimage{
-    max-width: 100%;
-    max-height: 80%;
-    height: 786px;
+    width: 100%;
     display: block;
     margin: 0%;
     border-radius: 10px;
-    z-index: -1;
 }
 .titlename{
     background-color: #04082942;
