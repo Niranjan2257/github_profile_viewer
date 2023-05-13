@@ -1,0 +1,127 @@
+body{
+background-color: rgb(195, 186, 186);
+}
+.page{
+    margin: 0px;
+    border-radius: 20px;
+    position: relative;
+
+}
+.bgimage{
+    max-width: 100%;
+    max-height: 80%;
+    height: 786px;
+    display: block;
+    margin: 0%;
+    border-radius: 10px;
+    z-index: -1;
+}
+.titlename{
+    background-color: #04082942;
+    height: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100% ;
+    align-self: auto;
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    
+}
+.container{
+    
+    width: 50%;
+    height: 50px;
+    border-radius: 20px;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+}
+.useri{
+    position: relative;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0 16px;
+    height: 90%;
+    width: 80%;
+    background-color: #12404332;
+    border: 2px solid #010304;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+.btn{ 
+    cursor: pointer;
+    outline: 0;
+    display: inline-block;
+    width: 14%;
+    height: 100%;
+    text-align: center;
+    background-color: #2682a132;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 1rem;
+    border-radius: 7px;
+    border-color: #0e0f0f;
+    }
+
+#profile{
+    background-color: rgba(73, 81, 148, 0.388);
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    display: none;
+
+}
+#profile img{
+    height: 200px;
+    border-radius: 50%;
+}
+#profile h2{
+    color: rgb(255, 255, 255);
+}
+#repositories{
+    background-color: rgba(13, 29, 74, 0.342);
+    width: fit-content;
+    height: min-content;
+    max-height: 60%;
+    max-width:60% ;
+    margin-right: 5%;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 30%;
+    left: 30%; 
+    display: none;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+.repository{
+    border-radius: 10px;
+    background-color: rgba(33, 26, 58, 0.655);
+    padding: 15px;
+    margin: 10px;
+    align-self: center;
+    color: aliceblue;
+    padding-top: 10px;
+    font-size: 15px;
+    height: min-content;
+}
+*::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #09060632;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #2913ed77;
+    border-radius: 50px;
+  }
+
+
